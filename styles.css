@@ -19,11 +19,6 @@ nav ul li {
   align-items: center
 }
 
-p {
-  text-align: center;
-  padding: 0px
-}
-
 .main-title {
   font-family: Helvetica Neue;
 	font-size: 4em;
@@ -32,6 +27,18 @@ p {
   text-align: center;
 }
 
+.bio {
+  text-align: center;
+  padding: 0px
+}
+
+.blog-container {
+  display: flex;
+}
+
 .blog {
   display: flex; /* this will get all child elements to be placed nicely in columns */
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding: 10px; /* overwrites the default padding for a section */
 }
